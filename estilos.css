@@ -1,0 +1,197 @@
+*{
+    font-family: 'Merriweather', serif;
+
+ }
+
+h2 {
+    color: #e3e632;
+    text-align: center;
+    font-size: 50px;
+    }
+
+h3{
+    color: #33d4f0;
+    font-size: 45px;
+}
+
+li{
+    color: #33d4f0;
+    font-size: 35px;
+}
+p{
+    color: #33d4f0;
+    font-size: 35px;
+}
+img{
+    max-width: 50%;
+}
+header { 
+    height: 450px;
+    background-color: gainsboro;
+    background-image: url(https://cdn.pixabay.com/photo/2021/03/19/13/35/computer-6107592_1280.png);
+    background-position: 0% 50%; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:scroll;
+   
+}
+section {
+    height: 450px;
+     background-image: url(https://cdn.pixabay.com/photo/2015/07/31/11/45/library-869061_1280.jpg);
+    background-position: 0% 50%; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:scroll;;
+}
+
+main{
+    height: 450px;
+    background-color: gainsboro;
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327_1280.jpg);
+    background-position: 0% 50%; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:scroll;
+}
+
+article{
+    height: 450px;
+    background-color: gainsboro;
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/04/12/47/boat-2713872_1280.jpg);
+    background-position: 0% 50%; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:scroll;
+
+}
+
+footer{
+    height: 250px;
+    background-color: gainsboro;
+    background-image: url(https://cdn.pixabay.com/photo/2018/02/23/09/03/human-3175027_1280.jpg);
+    background-position: 0% 50%; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:scroll;
+    
+}
+
+/* BOOTON WHATAPP*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom: 300px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/* BOTONES REDES SOCIALES*/
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    background-image: none;
+   
+    
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+
+
+/* BARRA DE NAVEGACION*/
+
+
+.nav-enlace{
+    display: inline-block;
+    background: #5f5df3;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+nav{
+    background: #5f5df3;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-boton{
+    background: #5f5df3;
+    color: #fff;
+    padding: 10px 0;
+    display: none;
+    
+}
+
+@media (max-width: 700px){
+    nav{
+        flex-direction: column;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+
+/*BOTNONES REDES*/
+.buttons {
+    min-width: 344px; 
+    display: flex;
+    justify-content: left;
+    background-image: none;
+    
+  }
+/*TITULOS Y TEXTO DE LA PAGINA*/
+  h2 {
+    color: #e3e632;
+    text-align: center;
+    font-size: 35px;
+    }
+
+h3{
+    color: #33d4f0;
+    font-size: 30px;
+}
+
+li{
+    color: #33d4f0;
+    font-size: 20px;
+}
+p{
+    color: #33d4f0;
+    font-size: 20px;
+}}
